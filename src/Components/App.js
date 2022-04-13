@@ -18,9 +18,6 @@ class Timer extends React.Component {
             this.setState({
                 timer: number--,
             });
-            // if (this.state.timer === 0) {
-            //     clearInterval(interval);
-            // }
         }, 1000);
     };
 
